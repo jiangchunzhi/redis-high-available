@@ -1,4 +1,4 @@
-package com.bj58.xxzl.hydata.utility.cache.redis.util;
+package com.redis.util;
 
 /**
  * 缓存的key相关常量

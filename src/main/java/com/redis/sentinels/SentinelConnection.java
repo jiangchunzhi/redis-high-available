@@ -1,4 +1,4 @@
-package com.bj58.xxzl.hydata.utility.cache.redis.sentinels;
+package com.redis.sentinels;
 
 import java.io.IOException;
 import java.net.InetSocketAddress;
@@ -16,7 +16,7 @@ import redis.clients.util.RedisInputStream;
 import redis.clients.util.RedisOutputStream;
 import redis.clients.util.SafeEncoder;
 
-import com.bj58.xxzl.hydata.utility.cache.redis.sentinels.SentinelProtocol.Command;
+import com.redis.sentinels.SentinelProtocol.Command;
 
 /**
  * Sentinel链接操作

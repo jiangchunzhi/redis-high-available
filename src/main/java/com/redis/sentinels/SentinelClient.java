@@ -1,9 +1,9 @@
-package com.bj58.xxzl.hydata.utility.cache.redis.sentinels;
+package com.redis.sentinels;
 
 import static redis.clients.jedis.Protocol.toByteArray;
 import redis.clients.util.SafeEncoder;
 
-import com.bj58.xxzl.hydata.utility.cache.redis.sentinels.SentinelProtocol.Command;
+import com.redis.sentinels.SentinelProtocol.Command;
 
 /**
  * Sentinel 客户端封装

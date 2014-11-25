@@ -1,4 +1,4 @@
-package com.bj58.xxzl.hydata.utility.cache.redis.sentinels;
+package com.redis.sentinels;
 
 import java.io.IOException;
 import java.util.ArrayList;

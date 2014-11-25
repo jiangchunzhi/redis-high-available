@@ -1,4 +1,4 @@
-package com.bj58.xxzl.hydata.utility.cache.redis.sentinels;
+package com.redis.sentinels;
 
 import java.util.List;
 import java.util.Set;
@@ -6,8 +6,8 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.ScheduledExecutorService;
 import java.util.concurrent.TimeUnit;
 
-import com.bj58.xxzl.hydata.utility.cache.redis.jedis.JedisPool;
-import com.bj58.xxzl.hydata.utility.cache.redis.jedis.ShardedPoolManager;
+import com.redis.jedis.JedisPool;
+import com.redis.jedis.ShardedPoolManager;
 
 /**
  * Jedis心跳检测

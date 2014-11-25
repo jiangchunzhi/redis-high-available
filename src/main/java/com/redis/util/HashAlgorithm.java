@@ -1,4 +1,4 @@
-package com.bj58.xxzl.hydata.utility.cache.redis.util;
+package com.redis.util;
 
 import java.io.UnsupportedEncodingException;
 import java.security.MessageDigest;

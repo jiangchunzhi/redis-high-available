@@ -1,4 +1,4 @@
-package com.bj58.xxzl.hydata.utility.cache.redis.annotation;
+package com.redis.annotation;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

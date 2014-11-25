@@ -1,4 +1,4 @@
-package com.bj58.xxzl.hydata.utility.cache.redis.client;
+package com.redis.client;
 
 import java.lang.reflect.Proxy;
 

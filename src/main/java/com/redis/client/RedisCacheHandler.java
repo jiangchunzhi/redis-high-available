@@ -1,4 +1,4 @@
-package com.bj58.xxzl.hydata.utility.cache.redis.client;
+package com.redis.client;
 
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
@@ -8,11 +8,11 @@ import java.util.Random;
 import redis.clients.jedis.ShardedJedis;
 import redis.clients.jedis.ShardedJedisPool;
 
-import com.bj58.xxzl.hydata.utility.cache.redis.annotation.RedisRead;
-import com.bj58.xxzl.hydata.utility.cache.redis.annotation.RehashRedisRead;
-import com.bj58.xxzl.hydata.utility.cache.redis.jedis.JedisPool;
-import com.bj58.xxzl.hydata.utility.cache.redis.jedis.ShardedPoolManager;
-import com.bj58.xxzl.hydata.utility.cache.redis.jedis.ShardedPoolManagerFactory;
+import com.redis.annotation.RedisRead;
+import com.redis.annotation.RehashRedisRead;
+import com.redis.jedis.JedisPool;
+import com.redis.jedis.ShardedPoolManager;
+import com.redis.jedis.ShardedPoolManagerFactory;
 
 /**
  * 动态代理内部处理handler

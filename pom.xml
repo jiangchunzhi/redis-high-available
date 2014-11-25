@@ -1,28 +1,15 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>com.bj58.xxzl.hydata</groupId>
-	<artifactId>com.bj58.xxzl.hydata.utility</artifactId>
+	<groupId>com</groupId>
+	<artifactId>com.redis</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>com.bj58.xxzl.hydata.utility</name>
+	<name>com.redis</name>
 	
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
 
-	<distributionManagement>
-		<repository>
-			<id>releases</id>
-			<name>Internal Releases</name>
-			<url>http://10.58.120.19:8058/nexus/content/repositories/releases</url>
-		</repository>
-		<snapshotRepository>
-			<id>Snapshots</id>
-			<name>Internal Snapshots</name>
-			<url>http://10.58.120.19:8058/nexus/content/repositories/snapshots</url>
-		</snapshotRepository>
-	</distributionManagement>
-	
 	<dependencies>
 		<dependency>
 			<groupId>log4j</groupId>

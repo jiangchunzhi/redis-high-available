@@ -1,12 +1,12 @@
-package com.bj58.xxzl.hydata.utility.cache.redis.client;
+package com.redis.client;
 
 import java.io.Serializable;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
-import com.bj58.xxzl.hydata.utility.cache.redis.annotation.RedisRead;
-import com.bj58.xxzl.hydata.utility.cache.redis.annotation.RehashRedisRead;
+import com.redis.annotation.RedisRead;
+import com.redis.annotation.RehashRedisRead;
 
 import redis.clients.jedis.ScanResult;
 import redis.clients.jedis.ShardedJedis;

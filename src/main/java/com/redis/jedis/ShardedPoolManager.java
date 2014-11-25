@@ -1,4 +1,4 @@
-package com.bj58.xxzl.hydata.utility.cache.redis.jedis;
+package com.redis.jedis;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -13,9 +13,9 @@ import org.apache.log4j.Logger;
 
 import redis.clients.jedis.ShardedJedisPool;
 
-import com.bj58.xxzl.hydata.utility.cache.redis.sentinels.Sentinel;
-import com.bj58.xxzl.hydata.utility.cache.redis.sentinels.SentinelHeartKeeper;
-import com.bj58.xxzl.hydata.utility.cache.redis.util.HashAlgorithm;
+import com.redis.sentinels.Sentinel;
+import com.redis.sentinels.SentinelHeartKeeper;
+import com.redis.util.HashAlgorithm;
 
 /**
  * jedis pool 管理类，shardding实现

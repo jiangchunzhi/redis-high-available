@@ -1,4 +1,4 @@
-package com.bj58.xxzl.hydata.utility.cache.redis.jedis;
+package com.redis.jedis;
 
 import java.util.LinkedList;
 import java.util.List;
